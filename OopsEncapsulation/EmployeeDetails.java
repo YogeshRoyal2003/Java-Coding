@@ -10,6 +10,10 @@ public class EmployeeDetails {
         Gmail = mail;
     }
 
+    // public EmployeeDetails(String name, String mail) {
+    //     //TODO Auto-generated constructor stub
+    // }
+
     public String getEname(){
         return Ename;
     }

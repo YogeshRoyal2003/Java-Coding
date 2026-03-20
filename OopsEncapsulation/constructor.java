@@ -1,5 +1,9 @@
 package OopsEncapsulation;
 
+// import Methods.EmployeeDetails;
+
+// import Methods.EmployeeDetails;
+
 class EmployeeDetails{
     private String Ename;
     private int age;
