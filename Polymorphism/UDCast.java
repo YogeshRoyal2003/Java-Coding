@@ -6,7 +6,7 @@ class P{
     }
 }
 
-class Q extends P{
+class Z extends P{
     public void show2(){
         System.out.println("In Q's show2");
     }
@@ -14,10 +14,10 @@ class Q extends P{
 
 public class UDCast {
     public static void main(String[] args) {
-        P obj = new Q(); // Up-casting
+        P obj = new Z(); // Up-casting
         obj.show1();
 
-        Q obj1 = (Q) obj;
+        Z obj1 = (Z) obj;
         obj1.show2();
         obj1.show1();
 
