@@ -1,5 +1,4 @@
-// package org.example;
-package JDBCConnection.src.main.java.org.example;
+package org.example;
 
 import java.sql.*;
 
