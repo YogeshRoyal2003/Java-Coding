@@ -1,12 +1,12 @@
 package Practice10thApril;
 
-interface A{
+interface AB{
     void display();
     void show();
     void call();
 }
 
-class Ex implements A{
+class Ex implements AB{
     public void display(){
         System.out.println("Display");
     }
