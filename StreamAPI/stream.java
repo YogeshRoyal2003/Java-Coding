@@ -24,6 +24,15 @@ public class stream {
         System.out.println(res);
 
 
+        List<Integer> nums = Arrays.asList(1,2,3,4,5,6,7,8,9);
+        List<Integer> li = nums.stream()
+                               .filter(n -> n%2==0)
+                               .map(n -> n*2)
+                               .toList();
+        // System.out.println(li);
+        li.forEach(n -> System.out.println(n));
+
+
         // for(int i=0; i<list.size(); i++){
         //     System.out.println(list.get(i));
         // }
